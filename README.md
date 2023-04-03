@@ -1,9 +1,11 @@
-<h2><div align='center'><font color="red"> 🕺🕺🕺 Follow Your Pose 💃💃💃 </font></center> <br> <center>Pose-Guided Text-to-Video Generation using Pose-Free Videos</div></h2>
+<div align="center">
+<h2><font color="red"> 🕺🕺🕺 Follow Your Pose 💃💃💃 </font></center> <br> <center>Pose-Guided Text-to-Video Generation using Pose-Free Videos</h2>
 
 [Yue Ma*](https://mayuelala.github.io/), [Yingqing He*](https://github.com/YingqingHe), [Xiaodong Cun](http://vinthony.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN), and [Qifeng Chen](https://cqf.io)
 
 <a href='https://arxiv.org/abs/TODO'><img src='https://img.shields.io/badge/ArXiv-TODO-red'></a> 
 <a href='https://follow-your-pose.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![GitHub](https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social)](https://github.com/mayuelala/FollowYourPose)
+</div>
 
 
 <!-- ![fatezero_demo](./docs/teaser.png) -->
