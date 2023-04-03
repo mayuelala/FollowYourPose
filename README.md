@@ -59,31 +59,33 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 <tr>
   <td><img src="gif_results/A Robot is dancing in Sahara desert.gif"></td>
   <td><img src="gif_results/sdsdA Iron man on the beach.gif"></td>
-    <td><img src="gif_results/A Panda on the sea.gif"></td>
+  <td><img src="gif_results/A Panda on the sea.gif"></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"A Robot, in Sahara desert"</td>
   <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
   <td width=25% style="text-align:center;">"A panda, son the sea"</td>
 </tr>
+</table>
 <!--#########################################################-->
+<table class="center">
 <tr>
   <td><img src="gif_results/a man in the park, Van Gogh style.gif"></td>
   <td><img src="gif_results/fireman in the beach.gif"></td>
   <td><img src="gif_results/Batman brown background.gif"></td>
-
 </tr>
 <tr>
-
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"A man in the park, Van Gogh style"</td>
   <td width=25% style="text-align:center;">"The fireman in the beach"</td>
   <td width=25% style="text-align:center;">"Batman, brown background"</td>
 </tr>
+</table>
 <!--#########################################################-->
 
 
+<table class="center">
 <tr>
   <td><img src="gif_results/ertA Hulk on the sea .gif"></td>
   <td><img src="gif_results/lokA Superman on the forest.gif"></td>
@@ -98,8 +100,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"A superman, in the forest"</td>
   <td width=25% style="text-align:center;">"A Iron man, in the snow"</td>
 </tr>
-
+</table>
 <!--#########################################################-->
+
+<table class="center">
 <tr>
   <td><img src="gif_results/A man in the forest, Minecraft.gif"></td>
   <td><img src="gif_results/a man in the sea, at sunset.gif"></td>
@@ -114,8 +118,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"A man in the sea, at sunset"</td>
   <td width=25% style="text-align:center;">"James Bond, grey simple background"</td>
 </tr>
+</table>
 <!--#########################################################-->
 
+<table class="center">
 <tr>
   <td><img src="gif_results/vryvA Panda on the sea.gif"></td>
   <td><img src="gif_results/nbthA Stormtrooper on the sea.gif"></td>
@@ -130,8 +136,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"A Stormtrooper on the sea"</td>
   <td width=25% style="text-align:center;">"A astronaut on the moon"</td>
 </tr>
+</table>
 <!--#########################################################-->
 
+<table class="center">
 <tr>
   <td><img src="gif_results/sssA astronaut on the moon.gif"></td>
   <td><img src="gif_results/ccA Robot in Antarctica.gif"></td>
@@ -146,9 +154,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"A Robot in Antarctica."</td>
   <td width=25% style="text-align:center;">"A Iron man on the beach."</td>
 </tr>
+</table>
 
 <!--#########################################################-->
-
+<table class="center">
 <tr>
   <td><img src="gif_results/yrvA Obama in the desert.gif"></td>
   <td><img src="gif_results/dfcA Astronaut on the beach.gif"></td>
@@ -163,8 +172,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"Astronaut on the beach."</td>
   <td width=25% style="text-align:center;">"Iron man on the snow"</td>
 </tr>
+</table>
 <!--#########################################################-->
 
+<table class="center">
 <tr>
   <td><img src="gif_results/aaaA Stormtrooper on the sea.gif"></td>
   <td><img src="gif_results/A Iron man on the beach..gif"></td>
@@ -179,8 +190,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"A Iron man on the beach."</td>
   <td width=25% style="text-align:center;">"A astronaut on the moon."</td>
 </tr>
+</table>
 <!--#########################################################-->
 
+<table class="center">
 <tr>
   <td><img src="gif_results/cdAstronaut on the beach.gif"></td>
   <td><img src="gif_results/cswSuperman on the forest.gif"></td>
@@ -195,7 +208,10 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"Superman on the forest"</td>
   <td width=25% style="text-align:center;">"Iron man on the beach"</td>
 </tr>
+</table>
 <!--#########################################################-->
+
+<table class="center">
 <tr>
   <td><img src="gif_results/dfewcAstronaut on the beach.gif"></td>
   <td><img src="gif_results/ewA Robot in Antarctica.gif"></td>
@@ -210,9 +226,9 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td width=25% style="text-align:center;">"Robot in Antarctica"</td>
   <td width=25% style="text-align:center;">"The Stormtroopers, on the beach"</td>
 </tr>
-
-<!--#########################################################-->
 </table>
+<!--#########################################################-->
+
 
 
 
