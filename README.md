@@ -1,4 +1,4 @@
-## <font color="red"> Follow-Your-Pose </font>:  Pose-Guided Text-to-Video Generation using Pose-Free Videos
+## <font color="red"> 🕺🕺🕺 Follow Your Pose 💃💃💃 </font>: <br> Pose-Guided Text-to-Video Generation using Pose-Free Videos
 
 [Yue Ma](https://mayuelala.github.io/), [Yingqing He](http://vinthony.github.io/), [Xiaodong Cun](http://vinthony.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN), and [Qifeng Chen](https://cqf.io)
 
@@ -25,8 +25,8 @@
 </tr>
 </table >
 
-## Abstract
-<b>TL;DR: <font color="red">Follow-Your-Pose</font>: We propose an efficient training scheme to empower the ability of the pretrained text-to-image model (i.e., Stable Diffusion) to generate pose-controllable character videos with minimal data requirements. Thanks to the proposed method, we can generate various high-definition pose-controllable character videos that are well-aligned with the pose sequences and the semantics of text prompts.</b>
+## 💃💃💃 Abstract
+<b>TL;DR: We tune 2D stable-diffusion to generate the character videos from pose and text description.</b>
 
 <details><summary>CLICK for full abstract</summary>
 
@@ -34,7 +34,7 @@
 > Generating text-editable and pose-controllable character videos have an imperious demand in creating various digital human. Nevertheless, this task has been restricted by the absence of a comprehensive dataset featuring paired video-pose captions and the generative prior models for videos. In this work, we design a novel two-stage training scheme that can utilize easily obtained datasets (i.e., image pose pair and pose-free video) and the pre-trained text-to-image (T2I) model to obtain the pose-controllable character videos. Specifically, in the first stage, only the keypoint-image pairs are used only for a controllable textto-image generation. We learn a zero-initialized convolutional encoder to encode the pose information. In the second stage, we finetune the motion of the above network via a pose-free video dataset by adding the learnable temporal self-attention and reformed cross-frame self-attention blocks. Powered by our new designs, our method successfully generates continuously pose-controllable character videos while keeps the editing and concept composition ability of the pre-trained T2I model. The code and models will be made publicly available.
 </details>
 
-## Changelog
+## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
 - 2023.03.30 Release Paper and Project page!
 
@@ -49,7 +49,7 @@
 - [ ] Release more application
 
 
-## Results with Stable Diffusion
+## 💃💃💃 Results with Stable Diffusion
 We show results regarding various pose sequences and text prompts.
 
 Note mp4 and gif files in this github page are compressed. 
@@ -216,18 +216,18 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 
 
-## Citation 
+## 🎼🎼🎼 Citation 
 
 ```
 XXXX
 ``` 
 
 
-## Acknowledgements
+## 👯👯👯 Acknowledgements
 
 This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video), [FateZero](https://github.com/ChenyangQiQi/FateZero) and [prompt-to-prompt](https://github.com/google/prompt-to-prompt/). thanks the authors for sharing their code and models.
 
-## Maintenance
+## 🕺🕺🕺 Maintenance
 
 This is the codebase for our research work. We are still working hard to update this repo and more details are coming in days. If you have any questions or ideas to discuss, feel free to contact [Yue Ma](y-ma21@mails.tsinghua.edu.cn) or [Yingqing He](vinthony@gmail.com) or [Xiaodong Cun](vinthony@gmail.com).
 
