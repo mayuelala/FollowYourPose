@@ -1,10 +1,10 @@
 ## <font color="red"> Follow-Your-Pose </font>:  Pose-Guided Text-to-Video Generation using Pose-Free Videos
 
-[Yue Ma](https://chenyangqiqi.github.io/), [Yingqing He](http://vinthony.github.io/), [Xiaodong Cun](https://yzhang2016.github.io), [Xintao Wang](https://chenyanglei.github.io/), [Ying Shan](https://xinntao.github.io/), [Xiu Li](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), and [Qifeng Chen](https://cqf.io)
+[Yue Ma](https://mayuelala.github.io/), [Yingqing He](http://vinthony.github.io/), [Xiaodong Cun](http://vinthony.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN), and [Qifeng Chen](https://cqf.io)
 
 <a href='https://arxiv.org/abs/2303.09535'><img src='https://img.shields.io/badge/ArXiv-2303.09535-red'></a> 
 <a href='https://fate-zero-edit.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  
-[![GitHub](https://img.shields.io/github/stars/ChenyangQiQi/FateZero?style=social)](https://github.com/ChenyangQiQi/FateZero)
+[![GitHub](https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social)](https://github.com/mayuelala/FollowYourPose)
 
 
 <!-- ![fatezero_demo](./docs/teaser.png) -->
@@ -14,15 +14,15 @@
   <td><img src="gif_results/ertA Hulk on the sea .gif"></td>
   <tr>
   <td width=25% style="text-align:center;">"A astronaut, brown background"</td>
-  <td width=25% style="text-align:center;">"A Hulk on the sea"</td>
+  <td width=25% style="text-align:center;">"A Hulk, on the sea"</td>
   <!-- <td width=25% style="text-align:center;">"Wonder Woman, wearing a cowboy hat, is skiing"</td>
   <td width=25% style="text-align:center;">"A man, wearing pink clothes, is skiing at sunset"</td> -->
 </tr>
-<td><img src="gif_results/fcwSuperman on the forest.gif"></td>
+<td><img src="gif_results/a man in the park, Van Gogh style.gif"></td>
 <td><img src="gif_results/vervA Stormtrooper on the sea.gif"></td>
 <tr>
-<td width=25% style="text-align:center;">"A astronaut, brown background"</td>
-<td width=25% style="text-align:center;">"A Hulk on the sea"</td>
+<td width=25% style="text-align:center;">"A man in the park, Van Gogh style"</td>
+<td width=25% style="text-align:center;">"The Stormtroopers, on the beach"</td>
 </tr>
 </table >
 
@@ -37,7 +37,7 @@
 
 ## Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.03.30 Release Code and Paper!
+- 2023.03.30 Release Paper and Project page!
 
 ## Todo
 
@@ -63,10 +63,27 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
     <td><img src="gif_results/A Panda on the sea.gif"></td>
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Ukiyo-e style"</td>
-  <td width=25% style="text-align:center;">"+ watercolor painting"</td>
-  <td width=25% style="text-align:center;">"+ Monet style"</td>
+  <td width=25% style="text-align:center;">"A Robot, in Sahara desert"</td>
+  <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
+  <td width=25% style="text-align:center;">"A panda, son the sea"</td>
 </tr>
+<!--#########################################################-->
+<tr>
+  <td><img src="gif_results/a man in the park, Van Gogh style.gif"></td>
+  <td><img src="gif_results/fireman in the beach.gif"></td>
+  <td><img src="gif_results/Batman brown background.gif"></td>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"A man in the park, Van Gogh style"</td>
+  <td width=25% style="text-align:center;">"The fireman in the beach"</td>
+  <td width=25% style="text-align:center;">"Batman, brown background"</td>
+</tr>
+<!--#########################################################-->
+
 
 <tr>
   <td><img src="gif_results/ertA Hulk on the sea .gif"></td>
@@ -78,10 +95,27 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokémon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"A Hulk, on the sea"</td>
+  <td width=25% style="text-align:center;">"A superman, in the forest"</td>
+  <td width=25% style="text-align:center;">"A Iron man, in the snow"</td>
 </tr>
+
+<!--#########################################################-->
+<tr>
+  <td><img src="gif_results/A man in the forest, Minecraft.gif"></td>
+  <td><img src="gif_results/a man in the sea, at sunset.gif"></td>
+  <td><img src="gif_results/James Bond, grey simple background.gif"></td>
+
+</tr>
+<tr>
+
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"A man in the forest, Minecraft."</td>
+  <td width=25% style="text-align:center;">"A man in the sea, at sunset"</td>
+  <td width=25% style="text-align:center;">"James Bond, grey simple background"</td>
+</tr>
+<!--#########################################################-->
 
 <tr>
   <td><img src="gif_results/vryvA Panda on the sea.gif"></td>
@@ -93,10 +127,11 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokémon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"A Panda on the sea."</td>
+  <td width=25% style="text-align:center;">"A Stormtrooper on the sea"</td>
+  <td width=25% style="text-align:center;">"A astronaut on the moon"</td>
 </tr>
+<!--#########################################################-->
 
 <tr>
   <td><img src="gif_results/sssA astronaut on the moon.gif"></td>
@@ -108,12 +143,12 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokémon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"A astronaut on the moon."</td>
+  <td width=25% style="text-align:center;">"A Robot in Antarctica."</td>
+  <td width=25% style="text-align:center;">"A Iron man on the beach."</td>
 </tr>
 
-
+<!--#########################################################-->
 
 <tr>
   <td><img src="gif_results/yrvA Obama in the desert.gif"></td>
@@ -125,11 +160,11 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokémon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"The Obama in the desert"</td>
+  <td width=25% style="text-align:center;">"Astronaut on the beach."</td>
+  <td width=25% style="text-align:center;">"Iron man on the snow"</td>
 </tr>
-
+<!--#########################################################-->
 
 <tr>
   <td><img src="gif_results/aaaA Stormtrooper on the sea.gif"></td>
@@ -141,11 +176,11 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokémon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"A Stormtrooper on the sea"</td>
+  <td width=25% style="text-align:center;">"A Iron man on the beach."</td>
+  <td width=25% style="text-align:center;">"A astronaut on the moon."</td>
 </tr>
-
+<!--#########################################################-->
 
 <tr>
   <td><img src="gif_results/cdAstronaut on the beach.gif"></td>
@@ -157,11 +192,11 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokmon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"Astronaut on the beach"</td>
+  <td width=25% style="text-align:center;">"Superman on the forest"</td>
+  <td width=25% style="text-align:center;">"Iron man on the beach"</td>
 </tr>
-
+<!--#########################################################-->
 <tr>
   <td><img src="gif_results/dfewcAstronaut on the beach.gif"></td>
   <td><img src="gif_results/ewA Robot in Antarctica.gif"></td>
@@ -172,12 +207,12 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"+ Pokmon cartoon style"</td>
-  <td width=25% style="text-align:center;">"+ Makoto Shinkai style"</td>
-  <td width=25% style="text-align:center;">"+ cartoon style"</td>
+  <td width=25% style="text-align:center;">"Astronaut on the beach"</td>
+  <td width=25% style="text-align:center;">"Robot in Antarctica"</td>
+  <td width=25% style="text-align:center;">"The Stormtroopers, on the beach"</td>
 </tr>
 
-
+<!--#########################################################-->
 </table>
 
 
@@ -185,20 +220,13 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 ## Citation 
 
 ```
-@misc{qi2023fatezero,
-      title={FateZero: Fusing Attentions for Zero-shot Text-based Video Editing}, 
-      author={Chenyang Qi and Xiaodong Cun and Yong Zhang and Chenyang Lei and Xintao Wang and Ying Shan and Qifeng Chen},
-      year={2023},
-      eprint={2303.09535},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+XXXX
 ``` 
 
 
 ## Acknowledgements
 
-This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video) and [prompt-to-prompt](https://github.com/google/prompt-to-prompt/). thanks the authors for sharing their code and models.
+This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video), [FateZero](https://github.com/ChenyangQiQi/FateZero) and [prompt-to-prompt](https://github.com/google/prompt-to-prompt/). thanks the authors for sharing their code and models.
 
 ## Maintenance
 
