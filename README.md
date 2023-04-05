@@ -54,7 +54,7 @@
 ## 💃💃💃 Results with Stable Diffusion
 We show results regarding various pose sequences and text prompts.
 
-Note mp4 and gif files in this github page are compressed. 
+Note mp4 and gif files in this GitHub page are compressed. 
 Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 files of original video results.
 <table class="center">
 
