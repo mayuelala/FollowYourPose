@@ -38,7 +38,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.06 The `code` and `hugging face demo` will comming tomorrow！
+- 2023.04.06 The `code` and `huggingface demo` will comming tomorrow！
 - 2023.04.03 Release Paper and Project page!
 
 ## Todo
