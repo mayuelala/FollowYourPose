@@ -329,6 +329,7 @@ class FollowYourPosePipeline(DiffusionPipeline):
         callback: Optional[Callable[[int, int, torch.FloatTensor], None]] = None,
         callback_steps: Optional[int] = 1,
         skeleton_path: Optional[str] = None,
+        frame_skeleton_stride: int = 5
         **kwargs,
     ):
         # Default height and width to unet
@@ -376,7 +377,7 @@ class FollowYourPosePipeline(DiffusionPipeline):
         # Denoising loop
         num_warmup_steps = len(timesteps) - num_inference_steps * self.scheduler.order
         
-        skeleton, save_skeleton = self.get_skeleton(skeleton_path)
+        skeleton, save_skeleton = self.get_skeleton(skeleton_path, video_length, frame_skeleton_stride)
         skeleton = skeleton.to(latents.device).repeat(2,1,1,1,1)
         
         with self.progress_bar(total=num_inference_steps) as progress_bar:
@@ -418,8 +419,8 @@ class FollowYourPosePipeline(DiffusionPipeline):
     
     
     @torch.no_grad()
-    def get_skeleton(self,skeleton_path):
-        skeleton_start_end = list(range(0, 160, 5))
+    def get_skeleton(self,skeleton_path, video_length=None, frame_skeleton_stride=None):
+        skeleton_start_end = list(range(0, video_length * frame_skeleton_stride, frame_skeleton_stride))
         self_transform = transforms.Compose([transforms.Resize(512),
                                         transforms_video.CenterCropVideo(512)])
         
