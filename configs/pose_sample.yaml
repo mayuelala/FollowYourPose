@@ -1,0 +1,29 @@
+pretrained_model_path: "./checkpoints/stable-diffusion-v1-4"
+output_dir: "output"
+
+
+validation_data:
+  prompts:
+    - "Iron man on the beach"
+    - "Stormtrooper on the sea"
+    - "Astronaut on the beach"
+  video_length: 32
+  width: 512
+  height: 512
+  num_inference_steps: 50
+  guidance_scale: 12.5
+  use_inv_latent: False
+  num_inv_steps: 50
+  dataset_set: "val"
+
+
+train_batch_size: 1
+validation_steps: 100
+
+resume_from_checkpoint: ./checkpoints/followyourpose_checkpoint-1000
+
+
+seed: 33
+mixed_precision: 'no'
+gradient_checkpointing: False
+enable_xformers_memory_efficient_attention: True

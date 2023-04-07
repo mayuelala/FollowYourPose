@@ -28,7 +28,7 @@
 </table >
 
 ## 💃💃💃 Abstract
-<b>TL;DR: We tune 2D stable-diffusion to generate the character videos from pose and text description.</b>
+<b>TL;DR: We tune the text-to-image model (e.g., stable diffusion) to generate the character videos from pose and text description.</b>
 
 <details><summary>CLICK for full abstract</summary>
 
@@ -38,24 +38,81 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.06 The `code` and `huggingface demo` will comming tomorrow！
+- 2023.04.06 Release `code`, `config` and `checkpoints`!
 - 2023.04.03 Release Paper and Project page!
 
-## Todo
+## 🎤🎤🎤 Todo
 
-- [ ] Release the code, config and checkpoints for teaser
-- [ ] Memory and runtime profiling
-- [ ] Hands-on guidance of hyperparameters tuning
+- [X] Release the code, config and checkpoints for teaser
+- [ ] Hugging face gradio demo: in progress
 - [ ] Colab
-- [ ] Release configs for other result and in-the-wild dataset
-- [ ] hugging-face: inprogress
-- [ ] Release more application
+- [ ] Release more applications
+
+## 🍻🍻🍻 Setup Environment
+Our method is trained using cuda11, accelerator and xformers on 8 A100.
+``` 
+conda create -n fupose python=3.8
+conda activate fupose
+
+pip install -r requirements.txt
+``` 
+
+`xformers` is recommended for A100 GPU to save memory and running time. 
+
+<details><summary>Click for xformers installation </summary>
+
+We find its installation not stable. You may try the following wheel:
+
+```bash
+wget https://github.com/ShivamShrirao/xformers-wheels/releases/download/4c06c79/xformers-0.0.15.dev0+4c06c79.d20221201-cp38-cp38-linux_x86_64.whl
+pip install xformers-0.0.15.dev0+4c06c79.d20221201-cp38-cp38-linux_x86_64.whl
+```
+</details>
+
+Our environment is similar to Tune-A-video ([official](https://github.com/showlab/Tune-A-Video), [unofficial](https://github.com/bryandlee/Tune-A-Video)). You may check them for more details.
+
+## 💃💃💃 Training
+We fix the bug in Tune-a-video and finetune stable diffusion-1.4 on 8 A100.
+To fine-tune the text-to-image diffusion models for text-to-video generation, run this command:
+
+```bash
+TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
+    --multi_gpu --num_processes=8 --gpu_ids '0,1,2,3,4,5,6,7' \
+    train_followyourpose.py \
+    --config="configs/pose_train.yaml" 
+```
+
+## 🕺🕺🕺 Inference
+Once the training is done, run inference:
+
+```bash
+TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
+    --gpu_ids '0' \
+    txt2video.py \
+    --config="configs/pose_sample.yaml" 
+```
+## 💃💃💃 Weight
+[Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
 
 
-## 💃💃💃 Results with Stable Diffusion
-We show results regarding various pose sequences and text prompts.
+[FollowYourPose] We also provide our pretrained checkpoints in [Huggingface](https://huggingface.co/YueMafighting/FollowYourPose_v1/tree/main). you could download them and put them into `checkpoints` folder to inference our models.
 
-Note mp4 and gif files in this GitHub page are compressed. 
+
+```bash
+FollowYourPose
+├── checkpoints
+│   ├── followyourpose_checkpoint-1000
+│   │   ├──...
+│   ├── stable-diffusion-v1-4
+│   │   ├──...
+│   └── pose_encoder.pth
+```
+
+
+## 🕺🕺🕺 Results
+We show our results regarding various pose sequences and text prompts.
+
+Note mp4 and gif files in this github page are compressed. 
 Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 files of original video results.
 <table class="center">
 
@@ -251,7 +308,7 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 ## 👯👯👯 Acknowledgements
 
-This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video), [FateZero](https://github.com/ChenyangQiQi/FateZero) and [prompt-to-prompt](https://github.com/google/prompt-to-prompt/). thanks the authors for sharing their code and models.
+This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video). thanks the authors for sharing their code and models.
 
 ## 🕺🕺🕺 Maintenance
 
