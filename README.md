@@ -293,7 +293,7 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 
 ## 🎼🎼🎼 Citation 
-
+If you think this project is helpful, please feel free to leave a star⭐️⭐️⭐️ and cite our paper:
 ```bibtex
 @misc{ma2023follow,
       title={Follow Your Pose: Pose-Guided Text-to-Video Generation using Pose-Free Videos}, 
