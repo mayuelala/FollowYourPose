@@ -89,7 +89,8 @@ Once the training is done, run inference:
 TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
     --gpu_ids '0' \
     txt2video.py \
-    --config="configs/pose_sample.yaml" 
+    --config="configs/pose_sample.yaml" \
+    --skeleton_path="./pose_example/vis_ikun_pose2.mov"
 ```
 ## 💃💃💃 Weight
 [Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
