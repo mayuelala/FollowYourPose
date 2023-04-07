@@ -38,7 +38,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements` for installation!
+- 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements.txt` for installation!
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
 - 2023.04.03 Release Paper and Project page!
 
