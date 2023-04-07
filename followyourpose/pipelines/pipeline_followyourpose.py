@@ -329,7 +329,7 @@ class FollowYourPosePipeline(DiffusionPipeline):
         callback: Optional[Callable[[int, int, torch.FloatTensor], None]] = None,
         callback_steps: Optional[int] = 1,
         skeleton_path: Optional[str] = None,
-        frame_skeleton_stride: int = 5
+        frame_skeleton_stride: int = 5,
         **kwargs,
     ):
         # Default height and width to unet
