@@ -4,7 +4,7 @@
 [Yue Ma*](https://mayuelala.github.io/), [Yingqing He*](https://github.com/YingqingHe), [Xiaodong Cun](http://vinthony.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Xiu Li](https://scholar.google.com/citations?user=Xrh1OIUAAAAJ&hl=zh-CN), and [Qifeng Chen](https://cqf.io)
 
 <a href='https://arxiv.org/abs/2304.01186'><img src='https://img.shields.io/badge/ArXiv-2304.01186-red'></a> 
-<a href='https://follow-your-pose.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb)  [![GitHub](https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social)](https://github.com/mayuelala/FollowYourPose) 
+<a href='https://follow-your-pose.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose)  [![GitHub](https://img.shields.io/github/stars/mayuelala/FollowYourPose?style=social)](https://github.com/mayuelala/FollowYourPose) 
 </div>
 
 
@@ -38,7 +38,8 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements.txt` for installation!
+- 2023.04.07 Release the first version of  `huggingface demo`[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose). Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example).  Meanwhile, the second version which regard the `video format` as input is comming.
+- 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements` for installation!
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
 - 2023.04.03 Release Paper and Project page!
 
@@ -46,7 +47,7 @@
 
 - [X] Release the code, config and checkpoints for teaser
 - [X] Colab
-- [ ] Hugging face gradio demo: in progress
+- [X] Hugging face gradio demo
 - [ ] Release more applications
 
 ## 🍻🍻🍻 Setup Environment
