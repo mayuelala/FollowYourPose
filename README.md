@@ -96,7 +96,10 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
 ```
 You could make the pose video by [mmpose](https://github.com/open-mmlab/mmpose) , we detect the skeleton by [HRNet](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
 
-## 💃💃💃 Weight
+## 💃💃💃 HuggingFace Demo
+<img width="1365" alt="图片" src="https://user-images.githubusercontent.com/38033523/230719324-79038e0e-8d6b-46e3-b0b8-651e6926b33c.png">
+
+## 🕺🕺🕺 Weight
 [Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
 
 
@@ -114,7 +117,7 @@ FollowYourPose
 ```
 
 
-## 🕺🕺🕺 Results
+## 💃💃💃 Results
 We show our results regarding various pose sequences and text prompts.
 
 Note mp4 and gif files in this github page are compressed. 
