@@ -94,6 +94,8 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
     --config="configs/pose_sample.yaml" \
     --skeleton_path="./pose_example/vis_ikun_pose2.mov"
 ```
+You could make the pose video by [mmaction2](https://github.com/open-mmlab/mmaction2) , we detect the skeleton by HRNet[1].  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
+
 ## 💃💃💃 Weight
 [Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
 
