@@ -38,7 +38,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.07 Release the first version of  `huggingface demo`[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose). Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example).  Meanwhile, the second version which regard the `video format` as input is comming.
+- 2023.04.07 Release the first version of  `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose). Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example).  Meanwhile, the second version which regard the `video format` as input is comming.
 - 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements` for installation!
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
 - 2023.04.03 Release Paper and Project page!
@@ -311,7 +311,7 @@ If you think this project is helpful, please feel free to leave a star⭐️⭐�
 
 ## 👯👯👯 Acknowledgements
 
-This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video). thanks the authors for sharing their code and models.
+This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/Tune-A-Video) and [FateZero](https://github.com/ChenyangQiQi/FateZero). thanks the authors for sharing their code and models.
 
 ## 🕺🕺🕺 Maintenance
 
