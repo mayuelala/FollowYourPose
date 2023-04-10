@@ -98,7 +98,7 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
 You could make the pose video by [mmpose](https://github.com/open-mmlab/mmpose) , we detect the skeleton by [HRNet](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
 
 ## 💃💃💃 HuggingFace Demo
-ikun3.png<img width="990" alt="图片" src="https://user-images.githubusercontent.com/38033523/230827566-bb9bbb54-bae9-4b1b-86bf-3eaf3deadb88.png">
+<img width="990" alt="图片" src="https://user-images.githubusercontent.com/38033523/230827566-bb9bbb54-bae9-4b1b-86bf-3eaf3deadb88.png">
 
 
 ## 🕺🕺🕺 Weight
