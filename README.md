@@ -38,6 +38,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
+- 2023.04.07 Release A new version of `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose), which support both `raw video` and `skeleton video` as input. Enjoy it!
 - 2023.04.07 Release the first version of  `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose). Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example) or make your own skeleton video by [mmpose](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  Additionaly, the second version which regard the `video format` as input is comming.
 - 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements` for installation!
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
@@ -97,7 +98,8 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
 You could make the pose video by [mmpose](https://github.com/open-mmlab/mmpose) , we detect the skeleton by [HRNet](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
 
 ## 💃💃💃 HuggingFace Demo
-<img width="1365" alt="图片" src="https://user-images.githubusercontent.com/38033523/230719324-79038e0e-8d6b-46e3-b0b8-651e6926b33c.png">
+ikun3.png<img width="990" alt="图片" src="https://user-images.githubusercontent.com/38033523/230827566-bb9bbb54-bae9-4b1b-86bf-3eaf3deadb88.png">
+
 
 ## 🕺🕺🕺 Weight
 [Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
