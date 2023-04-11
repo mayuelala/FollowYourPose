@@ -38,7 +38,8 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
-- 2023.04.010 Release A new version of `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose), which support both `raw video` and `skeleton video` as input. Enjoy it!
+- 2023.04.11 Release some cases in `huggingface demo`. 
+- 2023.04.10 Release A new version of `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose), which support both `raw video` and `skeleton video` as input. Enjoy it!
 - 2023.04.07 Release the first version of  `huggingface demo`. Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example) or make your own skeleton video by [mmpose](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  Additionaly, the second version which regard the `video format` as input is comming.
 - 2023.04.07 Release a `colab notebook` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mayuelala/FollowYourPose/blob/main/quick_demo.ipynb) and updata the `requirements` for installation!
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
