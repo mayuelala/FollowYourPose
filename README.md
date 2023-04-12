@@ -45,12 +45,21 @@
 - 2023.04.06 Release `code`, `config` and `checkpoints`!
 - 2023.04.03 Release Paper and Project page!
 
+## 💃💃💃 HuggingFace Demo
+<table class="center">
+  <td><img src="https://user-images.githubusercontent.com/38033523/231338219-94b54b10-3fdc-4bf5-9e07-0c1ff236793a.png"></td>
+  <td><img src="https://user-images.githubusercontent.com/38033523/231337960-a30db639-2ecc-486f-8d95-3b3e9c2ed338.png"></td>
+</tr>
+</table>
+
+
 ## 🎤🎤🎤 Todo
 
 - [X] Release the code, config and checkpoints for teaser
 - [X] Colab
 - [X] Hugging face gradio demo
 - [ ] Release more applications
+
 
 ## 🍻🍻🍻 Setup Environment
 Our method is trained using cuda11, accelerator and xformers on 8 A100.
@@ -98,8 +107,6 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
 ```
 You could make the pose video by [mmpose](https://github.com/open-mmlab/mmpose) , we detect the skeleton by [HRNet](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
 
-## 💃💃💃 HuggingFace Demo
-<img width="990" alt="图片" src="https://user-images.githubusercontent.com/38033523/230827566-bb9bbb54-bae9-4b1b-86bf-3eaf3deadb88.png">
 
 
 ## 🕺🕺🕺 Weight
