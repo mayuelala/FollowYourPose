@@ -59,7 +59,7 @@
 - [X] Release the code, config and checkpoints for teaser
 - [X] Colab
 - [X] Hugging face gradio demo
-- [X] Release more applications
+- [ ] Release more applications
 
 
 ## 🍻🍻🍻 Setup Environment
