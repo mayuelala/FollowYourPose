@@ -38,6 +38,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
+- **[2023.04.12]** 🔥 Release local gradio demo and you could run it locally, only need a A100/3090. 
 - **[2023.04.11]** 🔥 Release some cases in `huggingface demo`. 
 - **[2023.04.10]** 🔥 Release A new version of `huggingface demo` [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/YueMafighting/FollowYourPose), which support both `raw video` and `skeleton video` as input. Enjoy it!
 - **[2023.04.07]** Release the first version of  `huggingface demo`. Enjoy the fun of following your pose! You need to download the [skeleton video](https://github.com/mayuelala/FollowYourPose/tree/main/pose_example) or make your own skeleton video by [mmpose](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  Additionaly, the second version which regard the `video format` as input is comming.
@@ -58,7 +59,7 @@
 - [X] Release the code, config and checkpoints for teaser
 - [X] Colab
 - [X] Hugging face gradio demo
-- [ ] Release more applications
+- [X] Release more applications
 
 
 ## 🍻🍻🍻 Setup Environment
@@ -108,6 +109,12 @@ TORCH_DISTRIBUTED_DEBUG=DETAIL accelerate launch \
 You could make the pose video by [mmpose](https://github.com/open-mmlab/mmpose) , we detect the skeleton by [HRNet](https://mmpose.readthedocs.io/en/latest/model_zoo_papers/backbones.html#hrnet-cvpr-2019).  You just need to run the video demo to obtain the pose video.  Remember to replace the background with black.
 
 
+## 💃💃💃 Local Gradio Demo
+You could run the gradio demo locally, only need a `A100/3090`.
+```bash
+python app.py
+```
+then the demo is running on local URL:  `http://0.0.0.0:Port`
 
 ## 🕺🕺🕺 Weight
 [Stable Diffusion] [Stable Diffusion](https://arxiv.org/abs/2112.10752) is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input. The pre-trained Stable Diffusion models can be downloaded from Hugging Face (e.g., [Stable Diffusion v1-4](https://huggingface.co/CompVis/stable-diffusion-v1-4))
