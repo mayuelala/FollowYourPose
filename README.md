@@ -11,21 +11,25 @@
 <!-- ![fatezero_demo](./docs/teaser.png) -->
 
 <table class="center">
-  <td><img src="gif_results/A Astronaut.gif"></td>
-  <td><img src="gif_results/ertA Hulk on the sea .gif"></td>
+  <td><img src="gif_results/new_result_0830/8月16日(2).gif"></td>
+  <td><img src="gif_results/new_result_0830/8月19日.gif"></td>
   <tr>
-  <td width=25% style="text-align:center;">"A astronaut, brown background"</td>
-  <td width=25% style="text-align:center;">"A Hulk, on the sea"</td>
+  <td width=25% style="text-align:center;">"The man is sitting on chair, on the park"</td>
+  <td width=25% style="text-align:center;">"The Iron man, on the street
+"</td>
   <!-- <td width=25% style="text-align:center;">"Wonder Woman, wearing a cowboy hat, is skiing"</td>
   <td width=25% style="text-align:center;">"A man, wearing pink clothes, is skiing at sunset"</td> -->
 </tr>
-<td><img src="gif_results/a man in the park, Van Gogh style.gif"></td>
-<td><img src="gif_results/vervA Stormtrooper on the sea.gif"></td>
+<td><img src="gif_results/new_result_0830/a_bing.gif"></td>
+<td><img src="gif_results/new_result_0830/a_astronaut.gif"></td>
 <tr>
-<td width=25% style="text-align:center;">"A man in the park, Van Gogh style"</td>
-<td width=25% style="text-align:center;">"The Stormtroopers, on the beach"</td>
+<td width=25% style="text-align:center;">"The stormtrooper, in the gym
+"</td>
+<td width=25% style="text-align:center;">"The astronaut, earth background, Cartoon Style
+"</td>
 </tr>
 </table >
+
 
 ## 💃💃💃 Abstract
 <b>TL;DR: We tune the text-to-image model (e.g., stable diffusion) to generate the character videos from pose and text description.</b>
@@ -38,6 +42,7 @@
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
+- **[2023.08.30]** 🔥 Release some new results!
 - **[2023.07.06]** 🔥 Release A new version of `浦源内容平台 demo` [![浦源内容平台 Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20%E6%B5%A6%E6%BA%90%E5%86%85%E5%AE%B9%E5%B9%B3%E5%8F%B0-Spaces-blue)](https://openxlab.org.cn/apps/detail/houshaowei/FollowYourPose)! Thanks for the support of Shanghai AI Lab!
 - **[2023.04.12]** 🔥 Release local gradio demo and you could run it locally, only need a A100/3090. 
 - **[2023.04.11]** 🔥 Release some cases in `huggingface demo`. 
@@ -141,7 +146,48 @@ We show our results regarding various pose sequences and text prompts.
 Note mp4 and gif files in this github page are compressed. 
 Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 files of original video results.
 <table class="center">
+<tr>
+  <td><img src="gif_results/new_result_0830/8月19日(1).gif"></td>
+  <td><img src="gif_results/new_result_0830/8月19日(3).gif"></td>
+  <td><img src="gif_results/new_result_0830/a_astron_mountain.gif"></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"Trump, on the mountain
+"</td>
+  <td width=25% style="text-align:center;">"man, on the forest
+"</td>
+  <td width=25% style="text-align:center;">"astronaut, on mountain"</td>
+</tr>
+</table>
+<!--#########################################################-->
+<table class="center">
+<tr>
+  <td><img src="gif_results/new_result_0830/a_girl.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_Iron_man.gif"></td>
+  <td><img src="gif_results/new_result_0830/hulk.gif"></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"girl, simple background"</td>
+  <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
+  <td width=25% style="text-align:center;">"A Hulk, son the sea"</td>
+</tr>
+</table>
+<!--#########################################################-->
 
+<table class="center">
+<tr>
+  <td><img src="gif_results/new_result_0830/8月16日 (1)(1).gif"></td>
+  <td><img src="gif_results/new_result_0830/8月16日(3).gif"></td>
+  <td><img src="gif_results/new_result_0830/8月16日(13).gif"></td>
+</tr>
+<tr>
+  <td width=25% style="text-align:center;">"A Robot, in Sahara desert"</td>
+  <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
+  <td width=25% style="text-align:center;">"A panda, son the sea"</td>
+</tr>
+</table>
+<!--#########################################################-->
+<table class="center">
 <tr>
   <td><img src="gif_results/A Robot is dancing in Sahara desert.gif"></td>
   <td><img src="gif_results/sdsdA Iron man on the beach.gif"></td>
