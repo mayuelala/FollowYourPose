@@ -11,8 +11,8 @@
 <!-- ![fatezero_demo](./docs/teaser.png) -->
 
 <table class="center">
-  <td><img src="gif_results/new_result_0830/8月16日(2).gif"></td>
-  <td><img src="gif_results/new_result_0830/8月19日.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_man_in_the_park.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_Iron_man_in_the_street.gif"></td>
   <tr>
   <td width=25% style="text-align:center;">"The man is sitting on chair, on the park"</td>
   <td width=25% style="text-align:center;">"The Iron man, on the street
@@ -20,8 +20,8 @@
   <!-- <td width=25% style="text-align:center;">"Wonder Woman, wearing a cowboy hat, is skiing"</td>
   <td width=25% style="text-align:center;">"A man, wearing pink clothes, is skiing at sunset"</td> -->
 </tr>
-<td><img src="gif_results/new_result_0830/a_bing.gif"></td>
-<td><img src="gif_results/new_result_0830/a_astronaut.gif"></td>
+<td><img src="gif_results/new_result_0830/a_strom.gif"></td>
+<td><img src="gif_results/new_result_0830/a_astronaut_cartoon.gif"></td>
 <tr>
 <td width=25% style="text-align:center;">"The stormtrooper, in the gym
 "</td>
@@ -147,14 +147,14 @@ Note mp4 and gif files in this github page are compressed.
 Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 files of original video results.
 <table class="center">
 <tr>
-  <td><img src="gif_results/new_result_0830/8月19日(1).gif"></td>
-  <td><img src="gif_results/new_result_0830/8月19日(3).gif"></td>
-  <td><img src="gif_results/new_result_0830/a_astron_mountain.gif"></td>
+  <td><img src="gif_results/new_result_0830/Trump_on_the_mountain.gif"></td>
+  <td><img src="gif_results/new_result_0830/Trump_wear_yellow.gif"></td>
+  <td><img src="gif_results/new_result_0830/astranaut_on_the_mountain.gif"></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"Trump, on the mountain
 "</td>
-  <td width=25% style="text-align:center;">"man, on the forest
+  <td width=25% style="text-align:center;">"man, on the mountain
 "</td>
   <td width=25% style="text-align:center;">"astronaut, on mountain"</td>
 </tr>
@@ -162,9 +162,9 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 <!--#########################################################-->
 <table class="center">
 <tr>
-  <td><img src="gif_results/new_result_0830/a_girl.gif"></td>
-  <td><img src="gif_results/new_result_0830/a_Iron_man.gif"></td>
-  <td><img src="gif_results/new_result_0830/hulk.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_girl_yellow.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_Iron_man_on_the_beach.gif"></td>
+  <td><img src="gif_results/new_result_0830/hulk_on_the_mountain.gif"></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"girl, simple background"</td>
@@ -176,9 +176,9 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 
 <table class="center">
 <tr>
-  <td><img src="gif_results/new_result_0830/8月16日 (1)(1).gif"></td>
-  <td><img src="gif_results/new_result_0830/8月16日(3).gif"></td>
-  <td><img src="gif_results/new_result_0830/8月16日(13).gif"></td>
+  <td><img src="gif_results/new_result_0830/a_policeman_in_the_street.gif"></td>
+  <td><img src="gif_results/new_result_0830/a_girl_in_the_forest.gif"></td>
+  <td><img src="gif_results/new_result_0830/Iron_man_in_the_street.gif"></td>
 </tr>
 <tr>
   <td width=25% style="text-align:center;">"A Robot, in Sahara desert"</td>
