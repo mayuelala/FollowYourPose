@@ -30,6 +30,12 @@
 </tr>
 </table >
 
+## 💃💃💃 Demo Video
+
+
+
+https://github.com/mayuelala/FollowYourPose/assets/38033523/e021bce6-b9bd-474d-a35a-7ddff4ab8e75
+
 
 ## 💃💃💃 Abstract
 <b>TL;DR: We tune the text-to-image model (e.g., stable diffusion) to generate the character videos from pose and text description.</b>
