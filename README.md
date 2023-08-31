@@ -169,7 +169,7 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
 <tr>
   <td width=25% style="text-align:center;">"girl, simple background"</td>
   <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
-  <td width=25% style="text-align:center;">"A Hulk, son the sea"</td>
+  <td width=25% style="text-align:center;">"A Hulk, on the mountain"</td>
 </tr>
 </table>
 <!--#########################################################-->
@@ -181,9 +181,9 @@ Please check our [Project Page](https://follow-your-pose.github.io/) for mp4 fil
   <td><img src="gif_results/new_result_0830/Iron_man_in_the_street.gif"></td>
 </tr>
 <tr>
-  <td width=25% style="text-align:center;">"A Robot, in Sahara desert"</td>
-  <td width=25% style="text-align:center;">"A Iron man, on the beach"</td>
-  <td width=25% style="text-align:center;">"A panda, son the sea"</td>
+  <td width=25% style="text-align:center;">"A policeman, on the street"</td>
+  <td width=25% style="text-align:center;">"A girl, in the forest"</td>
+  <td width=25% style="text-align:center;">"A Iron man, on the street"</td>
 </tr>
 </table>
 <!--#########################################################-->
