@@ -101,7 +101,7 @@ torch==1.13.1
 torchvision==0.14.1
 tqdm==4.64.1
 transformers==4.26.1
-triton==1.1.1
+triton==2.0.0
 typing_extensions==4.5.0
 typing-inspect==0.8.0
 uc-micro-py==1.0.1
