@@ -24,7 +24,6 @@ from tqdm.auto import tqdm
 from transformers import CLIPTextModel, CLIPTokenizer
 
 from followyourpose.models.unet import UNet3DConditionModel
-from followyourpose.data.hdvila import HDVilaDataset
 from followyourpose.pipelines.pipeline_followyourpose import FollowYourPosePipeline
 from followyourpose.util import save_videos_grid, ddim_inversion
 from einops import rearrange

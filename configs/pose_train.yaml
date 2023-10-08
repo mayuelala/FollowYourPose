@@ -2,13 +2,13 @@ pretrained_model_path: "./checkpoints/stable-diffusion-v1-4"
 output_dir: "output"
 
 train_data:
-  video_path: "no path"
+  video_path: "pose_example/video_clips"
   prompt: "None"
-  n_sample_frames: 12
+  n_sample_frames: 4 #12
   width: 512
   height: 512
   sample_start_idx: 0
-  sample_frame_rate: 4
+  sample_frame_rate: 2 #4
   dataset_set: "train"
 
 validation_data:
@@ -17,7 +17,7 @@ validation_data:
     - "A Spider man on the snow"
     - "A Superman on the street"
     - "A boy on the forest"
-  video_length: 24
+  video_length: 4 #24
   width: 512
   height: 512
   num_inference_steps: 50
@@ -29,15 +29,15 @@ validation_data:
 
 learning_rate: 3e-5
 train_batch_size: 1
-max_train_steps: 5000
-checkpointing_steps: 1000
-validation_steps: 100
+max_train_steps: 50 #5000
+checkpointing_steps: 10 #1000
+validation_steps: 5 #100
 trainable_modules:
   - "attn1.to_q"
   - "attn2.to_q"
   - "attn_temp"
   - "conv_temporal"
-skeleton_path: './pose_example/vis_kun_pose2.mov'
+skeleton_path: './pose_example/vis_ikun_pose2.mov'
 
 
 seed: 33
