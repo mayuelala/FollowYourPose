@@ -1,0 +1,199 @@
+[
+  {
+    "id": "0MK2C",
+    "subject": "DXDI",
+    "scene": "Stairs",
+    "quality": 7,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is running up the stairs holding a pair of shoes.  The person goes through a door.",
+    "objects": ["doorway", "shoe", "stairs"],
+    "descriptions": "A person runs up the stairs carrying a pair of shoes and opens a door.",
+    "actions": [
+      ["1.50", "8.80"],
+      ["1.10", "8.80"],
+      ["4.00", "9.50"]
+    ],
+    "length": 9.04
+  },
+  {
+    "id": "ENQ1G",
+    "subject": "X3DN",
+    "scene": "Pantry",
+    "quality": 7,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person plays with a towel and wraps it around their head like a turban.  They smile at their silliness and start using the towel to wash the dust off a small television or desk in their pantry.",
+    "objects": ["head", "pantry", "towel"],
+    "descriptions": "Person taking a towel wrapping it around her head and dancing around the room, and then taking it off and cleaning the pantry.",
+    "actions": [
+      ["0.00", "7.10"],
+      ["17.30", "26.70"],
+      ["0.00", "5.90"],
+      ["27.00", "40.00"]
+    ],
+    "length": 38.83
+  },
+  {
+    "id": "B2NBR",
+    "subject": "EIO2",
+    "scene": "Hallway",
+    "quality": 4,
+    "relevance": 6,
+    "verified": "Yes",
+    "script": "A person runs back and forth in their hallway. They accidentally hit their foot on a small table, stumble and crash against the doorknob with their arm. They sit on the floor, grasping the damaged limb.",
+    "objects": ["doorknob", "floor", "table", "wardrobe"],
+    "descriptions": "A MAN IS RUNNING THROUGH THE HALLWAY, HITS HIS BODY AGAINST THE WALL, IS IN PAIN AND FALLS TO THE FLOOR AND STARTS TO FLEX HIS ARMS WHILE ON THE FLOOR",
+    "actions": [
+      ["8.70", "31.00"],
+      ["0.00", "8.30"],
+      ["6.70", "13.30"]
+    ],
+    "length": 30.5
+  },
+  {
+    "id": "G70A2",
+    "subject": "HJJ4",
+    "scene": "Laundry room",
+    "quality": 7,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is sneezing and then starts tidying the book on the shelf.",
+    "objects": ["book", "shelf"],
+    "descriptions": "A person sneezes. The person then picks up a book off a shelf.",
+    "actions": [
+      ["3.70", "12.80"],
+      ["0.00", "6.80"]
+    ],
+    "length": 12.04
+  },
+  {
+    "id": "F19VE",
+    "subject": "I48P",
+    "scene": "Kitchen",
+    "quality": 3,
+    "relevance": 6,
+    "verified": "Yes",
+    "script": "A person is eating some groceries while putting some of the groceries away.  The person is smiling.",
+    "objects": ["bag", "box", "food", "groceries", "shelf"],
+    "descriptions": "A person picks up some food and eats it. A person then grabs some groceries and puts them in the pantry.;The person takes food from a box and places it on the counter then puts other food away in a cupboard.",
+    "actions": [
+      ["12.80", "31.60"],
+      ["5.20", "35.00"],
+      ["19.70", "32.80"],
+      ["19.50", "33.80"],
+      ["11.80", "34.60"],
+      ["12.80", "17.60"],
+      ["20.40", "24.90"],
+      ["15.50", "21.20"],
+      ["6.70", "16.10"],
+      ["21.70", "31.90"],
+      ["6.40", "11.90"],
+      ["0.40", "11.30"],
+      ["0.00", "5.00"],
+      ["23.60", "30.10"],
+      ["0.70", "13.10"]
+    ],
+    "length": 33.58
+  },
+  {
+    "id": "GV40M",
+    "subject": "CLH3",
+    "scene": "Bedroom",
+    "quality": 6,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "In a bedroom, a person is awakening. They look at a light and sneeze. Then they look towards the door and begin to get out of bed.",
+    "objects": ["bed", "blanket", "door", "light"],
+    "descriptions": "Person is awakening in bed by window then sneezes, , then gets up from bed and walks towards door.",
+    "actions": [
+      ["5.30", "11.80"],
+      ["19.70", "25.00"],
+      ["0.00", "13.00"],
+      ["10.10", "16.70"],
+      ["15.40", "24.90"]
+    ],
+    "length": 23.67
+  },
+  {
+    "id": "SCOML",
+    "subject": "0KZ7",
+    "scene": "Laundry room",
+    "quality": 6,
+    "relevance": 6,
+    "verified": "Yes",
+    "script": "A person dresses by putting on a jacket that they take off a table. Then the person throws a pillow across the room.",
+    "objects": ["clothes", "pillow", "table"],
+    "descriptions": "person wearing clothes and then throws the pillow somewhere",
+    "actions": [
+      ["18.90", "27.00"],
+      ["0.00", "23.20"],
+      ["19.20", "25.70"],
+      ["19.30", "25.20"],
+      ["20.10", "26.20"],
+      ["0.00", "3.80"]
+    ],
+    "length": 26.25
+  },
+  {
+    "id": "SKLEN",
+    "subject": "2Q9D",
+    "scene": "Garage",
+    "quality": 5,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is washing a door and the tidying a shelf in the garage.",
+    "objects": ["bottle", "cloth", "door", "shelf", "spray", "towel"],
+    "descriptions": "A person sprays a cleaner on their door and wipes it with a towel. They put the cleaner back on the shelf and tidy it up.;A person wiping down a door with a cloth.The person walks to a shelf and puts the stuff back on the shelf.",
+    "actions": [
+      ["4.80", "15.00"],
+      ["13.10", "21.40"],
+      ["4.80", "21.10"],
+      ["18.40", "31.80"],
+      ["9.40", "23.90"],
+      ["0.00", "18.80"],
+      ["0.00", "25.10"]
+    ],
+    "length": 30.79
+  },
+  {
+    "id": "T0LOH",
+    "subject": "3H6W",
+    "scene": "Entryway (A hall that is generally located at the entrance of a house)",
+    "quality": 6,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A smiling person is standing in their entryway holding a pile of clothes. The person then sits on a chair.",
+    "objects": ["blanket", "chair", "clothes"],
+    "descriptions": "A person walks to door holding clothes while smiling. The person sits on a chair, stands and leaves.",
+    "actions": [
+      ["1.70", "20.70"],
+      ["10.20", "15.40"],
+      ["0.20", "21.70"],
+      ["0.10", "21.40"],
+      ["0.00", "4.20"],
+      ["10.60", "16.00"],
+      ["3.00", "20.20"]
+    ],
+    "length": 21.5
+  },
+  {
+    "id": "WF7TY",
+    "subject": "5LWB",
+    "scene": "Garage",
+    "quality": 5,
+    "relevance": 7,
+    "verified": "Yes",
+    "script": "A person is taking off shoes and then walking with a sandwich in the garage.",
+    "objects": ["food", "motorcycle", "sandwich", "shoe"],
+    "descriptions": "A person gets off a motorcycle, takes off shoes, grabs a sandwich and walks off camera.",
+    "actions": [
+      ["3.60", "12.00"],
+      ["10.90", "19.50"],
+      ["3.60", "7.90"],
+      ["10.80", "21.00"],
+      ["8.70", "21.00"]
+    ],
+    "length": 19.67
+  }
+]
