@@ -24,7 +24,7 @@ from tqdm.auto import tqdm
 from transformers import CLIPTextModel, CLIPTokenizer
 
 from followyourpose.models.unet import UNet3DConditionModel
-from followyourpose.data.hdvila import HDVilaDataset
+from followyourpose.data.charades import CharadesDataset
 from followyourpose.pipelines.pipeline_followyourpose import FollowYourPosePipeline
 from followyourpose.util import save_videos_grid, ddim_inversion
 from einops import rearrange
@@ -154,7 +154,7 @@ def main(
     )
 
     # Get the training dataset
-    train_dataset = HDVilaDataset(accelerator=accelerator, **train_data)
+    train_dataset = CharadesDataset(accelerator=accelerator, **train_data)
 
 
     # DataLoaders creation:
