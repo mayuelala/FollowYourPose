@@ -28,7 +28,7 @@ learning_rate: 3e-5
 train_batch_size: 1
 max_train_steps: 50
 checkpointing_steps: 25
-validation_steps: 50
+validation_steps: 100
 trainable_modules:
   - "attn1.to_q"
   - "attn2.to_q"
