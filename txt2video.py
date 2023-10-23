@@ -180,5 +180,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=str)
     parser.add_argument("--skeleton_path", type=str)
+    parser.add_argument("--resume_from_checkpoint", type=str, default=None)
     args = parser.parse_args()
-    main(**OmegaConf.load(args.config), skeleton_path = args.skeleton_path)
+    main(**OmegaConf.load(args.config), resume_from_checkpoint=args.resume_from_checkpoint, skeleton_path = args.skeleton_path)
