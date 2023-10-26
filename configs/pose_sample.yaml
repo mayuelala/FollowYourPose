@@ -20,7 +20,7 @@ validation_data:
 train_batch_size: 1
 validation_steps: 100
 
-resume_from_checkpoint: ./checkpoints/followyourpose_checkpoint-1000
+# resume_from_checkpoint: ./checkpoints/followyourpose_checkpoint-1000
 
 
 seed: 33
