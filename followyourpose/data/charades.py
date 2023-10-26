@@ -183,7 +183,6 @@ class CharadesDataset(Dataset):
         #     cap_idx = big_cap_idx
         # # print(middle_idx, small_cap_idx, big_cap_idx,cap_idx)
         # caption = video[1][int(cap_idx//64)]
-        print('caption:', video['action'])
 
         frames = frames.permute(1,0,2,3)
         skeleton_final = torch.zeros_like(frames).byte()
