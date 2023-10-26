@@ -40,9 +40,7 @@ class CharadesDataset(Dataset):
         self.load_raw_resolution = load_raw_resolution
         self.fps_max = fps_max
         self.load_resize_keep_ratio = load_resize_keep_ratio
-        print('start load meta data')
         self._load_metadata()
-        print('load meta data done!!!')
         if spatial_transform is not None:
             if spatial_transform == "random_crop":
                 self.spatial_transform = transforms_video.RandomCropVideo(crop_resolution)
@@ -70,6 +68,8 @@ class CharadesDataset(Dataset):
             # Open the JSON file and load its contents
             with open(json_path, 'r', encoding='utf-8') as json_file:
                 metadata_list = json.load(json_file)
+                # track number of videos
+                self.n_videos = len(metadata_list)
 
                 # Iterate through each entry in the JSON file
                 for entry in metadata_list:
@@ -82,7 +82,6 @@ class CharadesDataset(Dataset):
                         for action in actions:
                             action_label = action.get("action", "")
                             video_part_id = video_id + str(video_part)
-                            print("loading ", video_part_id)
                             self.metadata.append({
                                 "video_id": video_id,
                                 "video_part_id": video_part_id,
