@@ -15,8 +15,6 @@ validation_data:
   prompts:
     - "A Iron man on the beach"
     - "A Spider man on the snow"
-    - "A Superman on the street"
-    - "A boy on the forest"
   video_length: 4 #24
   width: 512
   height: 512
@@ -29,9 +27,9 @@ validation_data:
 
 learning_rate: 3e-5
 train_batch_size: 1
-max_train_steps: 50 #5000
-checkpointing_steps: 10 #1000
-validation_steps: 5 #100
+max_train_steps: 100 #5000
+checkpointing_steps: 25 #1000
+validation_steps: 50 #100
 trainable_modules:
   - "attn1.to_q"
   - "attn2.to_q"
