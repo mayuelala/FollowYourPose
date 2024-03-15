@@ -48,6 +48,7 @@ https://github.com/mayuelala/FollowYourPose/assets/38033523/e021bce6-b9bd-474d-a
 
 ## 🕺🕺🕺 Changelog
 <!-- A new option store all the attentions in hard disk, which require less ram. -->
+- **[2024.03.15]** 🔥 🔥 🔥 We release the Second Follower [Follow-Your-Click](https://follow-your-click.github.io/), the first framework to achieve regional image animation. Try it now! Please give us a star! ⭐️⭐️⭐️ 😄
 - **[2023.12.09]** 🔥 The paper is accepted by AAAI 2024!
 - **[2023.08.30]** 🔥 Release some new results!
 - **[2023.07.06]** 🔥 Release A new version of `浦源内容平台 demo` [![浦源内容平台 Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20%E6%B5%A6%E6%BA%90%E5%86%85%E5%AE%B9%E5%B9%B3%E5%8F%B0-Spaces-blue)](https://openxlab.org.cn/apps/detail/houshaowei/FollowYourPose)! Thanks for the support of Shanghai AI Lab!
