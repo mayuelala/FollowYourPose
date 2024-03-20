@@ -392,3 +392,6 @@ This repository borrows heavily from [Tune-A-Video](https://github.com/showlab/T
 
 This is the codebase for our research work. We are still working hard to update this repo and more details are coming in days. If you have any questions or ideas to discuss, feel free to contact [Yue Ma](mailto:y-ma21@mails.tsinghua.edu.cn) or [Yingqing He](https://github.com/YingqingHe) or [Xiaodong Cun](mailto:vinthony@gmail.com).
 
+## ⭐️⭐️⭐️ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mayuelala/FollowYourPose&type=Date)](https://star-history.com/#mayuelala/FollowYourPose&Date)
