@@ -11,29 +11,15 @@ sys.path.append('FollowYourPose')
 
 def get_frames(video_in):
     frames = []
-    #resize the video
-    clip = VideoFileClip(video_in)
-    start_frame = 0  # 起始帧数
-    end_frame = 50  # 结束帧数
-    
-    if not os.path.exists('./raw_frames'):
-        os.makedirs('./raw_frames')
-    
-    if not os.path.exists('./mmpose_frames'):
-        os.makedirs('./mmpose_frames')
-    
-    #check fps
-    if clip.fps > 30:
-        print("vide rate is over 30, resetting to 30")
-        clip_resized = clip.resize(height=512)
-        clip_resized = clip_resized.subclip(start_frame / clip_resized.fps, end_frame / clip_resized.fps) # subclip 2 seconds
-        clip_resized.write_videofile("./video_resized.mp4", fps=30)
-    else:
-        print("video rate is OK")
-        clip_resized = clip.resize(height=512)
-        clip_resized = clip_resized.subclip(start_frame / clip.fps, end_frame / clip.fps) # subclip 5 seconds
-        clip_resized.write_videofile("./video_resized.mp4", fps=clip.fps)
-    
+    os.makedirs('./raw_frames', exist_ok=True)
+    os.makedirs('./mmpose_frames', exist_ok=True)
+
+    with VideoFileClip(video_in) as clip:
+        output_fps = min(clip.fps, 30)
+        end_time = min(50 / clip.fps, clip.duration)
+        clip_resized = clip.resize(height=512).subclip(0, end_time)
+        clip_resized.write_videofile("./video_resized.mp4", fps=output_fps)
+
     print("video resized to 512 height")
     
     # Opens the Video file with CV2
